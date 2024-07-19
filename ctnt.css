@@ -1,0 +1,70 @@
+.jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif; /* Police principale */
+}
+
+/* Utilisation de la police Jacquard 24 */
+.second-font {
+    font-family: 'Jacquard 24', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+main {
+    margin-top: 40px;
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
